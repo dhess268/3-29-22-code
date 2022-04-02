@@ -23,7 +23,7 @@ function Calculator() {
         if(currentSum === 'ERROR'){
             currentSum = ''
         }
-        if (this.innerText ==='+' || this.innerText === 'x'|| this.innerText ===  '+'|| this.innerText === '/'){
+        if (this.innerText ==='+' || this.innerText === 'x'|| this.innerText ===  '-'|| this.innerText === '/'){
             currentSum += ' ' + this.innerText + ' '
         }
         else if(this.innerText === '='){
